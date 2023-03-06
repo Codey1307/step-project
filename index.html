@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/reset.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Step-Project</title>
+    <script src="./jquery-3.6.3.min.js"></script>
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header_container">
+        <div class="logo_container">
+          <a href="#" class="logo_link">
+            <div class="logo">
+              <svg
+                width="58"
+                height="67"
+                viewBox="0 0 58 67"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="58" height="67" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_2143_414"
+                      transform="scale(0.0172414 0.0149254)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_2143_414"
+                    width="58"
+                    height="67"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAABDCAYAAADNlhYhAAABS2lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+nhxg7wAAAxpJREFUaIHt20FoHVUUxvGfExEKgYAgBAoupMGQoLRQLC6KpUX3EUVBBKVCsSgVs6m0S6VuKi2KghgUF6JE2o0rRTEggtKSUqkIDS0UAoVCoFAoBAIuTh6UR/o6M+/OTN6b998lb96957v3nHO/OyQPTS4vqpHDOI5PsID1uibOappnN/7CV9iFz3EFczXNX7nQCXyKC3im67NdOIffxUJUSpVC38BVvIOxHs89h2Wx25NVBVOF0KfwJ77GYwW+d1gszAnsSB1USqETOCN259mSY4zjQ/wnhCcjldDXRXDH9E7TvDwuUnlZpHbf9Ct0RjSTb1VTX7s3xz8nmldpygodx2lclmjFH8CcOI5OixIpTBmhr4g0fV+aNM3LI5tzXsPbmz/npojQGfyK77GzyCSJeVQJw5FH6DhOicZwsFRo1VDIcDxI6Eti5Y4rmCo1kstw3E/ok/gZi6LVDwI9DUe30B3iwL6M5ysPLT0dw3FVl+G4V+ic6KYnbN80zctOXYYjE0X9kyjsQUnTvHQMx7GHRZomN9HbjMnM8ItEpO6dpoOogwwbTQdRA+N1vTNqmrG2CJXhdtNB1EFbdnRUo0PHqEaHjIm2CG3Njo5qdNhoV4224fbSrvtoGxjV6NDRlhptze2lNffRUY0OG6MaHToyNf6FZZNkuNt0EDUwqtFhYz3DzaajqJhfMJvhLA7gUqPhpOcGXsYLWOmk7hL24C2Dv8Pr+Biz+LHzy+4aXcAUPjKY3fg3sWEf6HJ8WzWjOziJaSF8EFjFqziEf7d6oFfXvSFSeY9I7e3IhvjXkmn80OvBPMfLJdGsXsRKv5ElZAlPY16Oi0mRc/S8KPB5zb7dv4nXxOJvmaZbUdQwrItUeQJfqNcnb4ijcBrfFf1yWWe0hqNih8+XHKMIf4he8Z6S2dSvBVwRtXtANYbjFt7EfvzTz0CpvG5qw7GBz8SZ/k2C8ZK/qU9hOP7GXrwrYdOr4vbSMRxTihmONZER+1RQBlVe01blNxxfik5emROr4z7ay3BcFGl6RMVnc50X73sNx3Uhbq8QWzn/A5kFk+cEK0EoAAAAAElFTkSuQmCC"
+                  />
+                </defs>
+              </svg>
+              <div class="logo_letter">H</div>
+            </div>
+            <div class="logo_text">the<span>Ham</span></div>
+          </a>
+        </div>
+        <nav>
+          <div class="header-menu-container">
+            <ul class="header-menu">
+              <li class="header-menu-item"><a href="">HOME</a></li>
+              <li class="header-menu-item"><a href="">ABOUT</a></li>
+              <li class="header-menu-item"><a href="">BLOG</a></li>
+              <li class="header-menu-item"><a href="">SKILLS</a></li>
+              <li class="header-menu-item"><a href="">SERVICE</a></li>
+              <li class="header-menu-item"><a href="">WORK</a></li>
+              <li class="header-menu-item"><a href="">TESTIMONIAL</a></li>
+            </ul>
+            <div class="search-icon">
+              <img src="./img/search_icon.png" alt="" />
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="home">
+        <h1 class="title">
+          <div class="title_default">
+            The Ham is <span class="title_special"> Wordpress theme</span>
+          </div>
+          <div class="title_strong">we are creative</div>
+          <div class="title_mini">
+            Just Buy And Enjoy These Awesome Features
+          </div>
+        </h1>
+        <div class="home_btns">
+          <div class="btn_container">
+            <a href="" class="btn">explore now</a>
+          </div>
+          <div class="btn_container">
+            <a href="" class="btn purchase_now_btn">purchase now</a>
+          </div>
+        </div>
+      </div>
+      <div class="options">
+        <div class="block first_option">
+          <div class="option_img">
+            <img src="./img/first_option_icon.png" alt="#" />
+          </div>
+          <div class="option_text dark">Different theme option</div>
+        </div>
+        <div class="block">
+          <div class="option_img">
+            <img src="./img/second_option_icon.png" alt="#" />
+          </div>
+          <div class="option_text">fully customizable</div>
+        </div>
+        <div class="block third_option">
+          <div class="option_img">
+            <img src="./img/third_option_icon.png" alt="#" />
+          </div>
+          <div class="option_text">unlimited support</div>
+        </div>
+        <div class="block">
+          <div class="option_img">
+            <img src="./img/fourth_option_icon.png" alt="#" />
+          </div>
+          <div class="option_text">responsive all device</div>
+        </div>
+      </div>
+      <div class="services">
+        <h2>Our Services</h2>
+        <div class="lines">
+          <div class="green_line"></div>
+          <div class="green_line"></div>
+        </div>
+        <div class="container">
+          <nav>
+            <ul class="services_menu">
+              <li class="services_menu_item active" onclick="openTab(event, 'webDesign')"><a href="#">Web Design</a></li>
+              <li class="services_menu_item" onclick="openTab(event, 'graphicDesign')"><a href="#">Graphic Design</a></li>
+              <li class="services_menu_item" onclick="openTab(event, 'onlineSupport')"><a href="#">Online Support</a></li>
+              <li class="services_menu_item" onclick="openTab(event, 'appDesign')"><a href="#">App Design</a></li>
+              <li class="services_menu_item" onclick="openTab(event, 'onlineMarketing')">
+                <a href="#">Online Marketing</a>
+              </li>
+              <li class="services_menu_item" onclick="openTab(event, 'seoServices')"><a href="#">Seo Service</a></li>
+            </ul>
+          </nav>
+          <div id="webDesign" class="services_description active">
+            <img src="./img/web_design.png" alt="" />
+            <div class="services_description_text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+              amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum. Deserunt mollit anim id est
+              laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+          <div id="graphicDesign" class="services_description ">
+            <img src="./img/graphic_design.png" alt="" />
+            <div class="services_description_text">
+              Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum. Deserunt mollit anim id est
+              laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+          <div id="onlineSupport" class="services_description ">
+            <img src="./img/online_support.png" alt="" />
+            <div class="services_description_text">
+              Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+              Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum. Deserunt mollit anim id est
+              laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+          <div id="appDesign" class="services_description ">
+            <img src="./img/app_design.png" alt="" />
+            <div class="services_description_text">
+              Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Deserunt mollit anim id est
+              laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+          <div id="onlineMarketing" class="services_description ">
+            <img src="./img/online_marketing.png" alt="" />
+            <div class="services_description_text">
+              Deserunt mollit anim id est
+              laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua.
+               Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Deserunt mollit anim id est
+              laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+          <div id="seoServices" class="services_description ">
+            <img src="./img/seo_services.png" alt="" />
+            <div class="services_description_text">
+              Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+              Deserunt mollit anim id est
+              laborum. Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua.
+              Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adip isicing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="purchase">
+        <div class="container">
+          <div class="purchase_title">
+            Everything is ready. just buy and install now
+          </div>
+          <div class="purchase_description">
+            Smooth reliable, responsive ready, perfect portfolio, unique blog
+            layout and many many options for you
+          </div>
+          <div class="btn_container">
+            <a href="#" class="btn">purchase now</a>
+          </div>
+        </div>
+      </div>
+      <div class="work">
+        <div id="workContainer" class="container">
+          <h2>Our Amazing Work</h2>
+          <div class="lines">
+            <div class="green_line"></div>
+            <div class="green_line"></div>
+          </div>
+          <ul id="workMenu" class="work_menu">
+            <li id="all" class="work_menu_item active"> All</li>
+            <li id="designGraphic" class="work_menu_item " >Graphic Design</li>
+            <li id="designWeb"class="work_menu_item" >Web Design</li>
+            <li id="landingPages"class="work_menu_item" >Landing Pages</li>
+            <li id="wordpress" class="work_menu_item" >Wordpress</li>
+          </ul>
+          <div class="work_section">
+            <div class="work_section_item web_design">
+              <img src="./img/work_1.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item landing_pages">
+              <img src="./img/work_2.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item graphic_design">
+              <img src="./img/work_3.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item graphic_design">
+              <img src="./img/work_4.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item web_design">
+              <img src="./img/work_5.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item graphic_design">
+              <img src="./img/work_6.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item landing_pages">
+              <img src="./img/work_7.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item wordpress">
+              <img src="./img/work_8.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item wordpress">
+              <img src="./img/work_9.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item web_design">
+              <img src="./img/work_10.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item wordpress">
+              <img src="./img/work_11.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+            <div class="work_section_item landing_pages">
+              <img src="./img/work_12.png" alt="" />
+              <div class="work_hover">
+                <img src="./img/hover_icon.png" alt="hover icon" />
+                <p class="hover_name">creative design</p>
+                <p class="hover_text">Web Design</p>
+              </div>
+            </div>
+          </div>
+          <a href="##" class="load_btn"
+            ><img class="load_img" src="./img/load_btn.png" alt="#" />LOAD
+            MORE</a
+          >
+        </div>
+      </div>
+      <div class="news">
+        <div class="container">
+          <h2>Breaking News</h2>
+          <div class="lines">
+            <div class="green_line"></div>
+            <div class="green_line"></div>
+          </div>
+          <a href=""><div class="news_section">
+            <div class="news_section_item">
+              <img class="news_img" src="./img/news_1.png" />
+              <div class="news_text">
+                <div class="news_strong">Amazing Blog Post</div>
+                By admin | 2 comment
+              </div>
+              <div class="news_date">
+                <div class="date_container">
+                  <div class="date_day">12</div>
+                  <div class="date_month">Feb</div>
+                </div>
+              </div>
+            </div>
+          </a>
+            <a href=""><div class="news_section_item">
+              <img class="news_img" src="./img/news_2.png" />
+              <div class="news_text">
+                <div class="news_strong">Amazing Blog Post</div>
+                By admin | 2 comment
+              </div>
+              <div class="news_date">
+                <div class="date_container">
+                  <div class="date_day">12</div>
+                  <div class="date_month">Feb</div>
+                </div>
+              </div>
+            </div>
+          </a>
+            <a href=""><div class="news_section_item">
+              <img class="news_img" src="./img/news_3.png" />
+              <div class="news_text">
+                <div class="news_strong">Amazing Blog Post</div>
+                By admin | 2 comment
+              </div>
+              <div class="news_date">
+                <div class="date_container">
+                  <div class="date_day">12</div>
+                  <div class="date_month">Feb</div>
+                </div>
+              </div>
+            </div>
+          </a>
+            <a href=""><div class="news_section_item">
+              <img class="news_img" src="./img/news_4.png" />
+              <div class="news_text">
+                <div class="news_strong">Amazing Blog Post</div>
+                By admin | 2 comment
+              </div>
+              <div class="news_date">
+                <div class="date_container">
+                  <div class="date_day">12</div>
+                  <div class="date_month">Feb</div>
+                </div>
+              </div>
+            </div>
+          </a>
+            <a href=""><div class="news_section_item">
+              <img class="news_img" src="./img/news_5.png" />
+              <div class="news_text">
+                <div class="news_strong">Amazing Blog Post</div>
+                By admin | 2 comment
+              </div>
+              <div class="news_date">
+                <div class="date_container">
+                  <div class="date_day">12</div>
+                  <div class="date_month">Feb</div>
+                </div>
+              </div>
+            </div>
+          </a>
+            <a href=""><div class="news_section_item">
+              <img class="news_img" src="./img/news_6.png" />
+              <div class="news_text">
+                <div class="news_strong">Amazing Blog Post</div>
+                By admin | 2 comment
+              </div>
+              <div class="news_date">
+                <div class="date_container">
+                  <div class="date_day">12</div>
+                  <div class="date_month">Feb</div>
+                </div>
+              </div>
+            </div>
+          </a>
+            <a href=""><div class="news_section_item">
+              <img class="news_img" src="./img/news_7.png" />
+              <div class="news_text">
+                <div class="news_strong">Amazing Blog Post</div>
+                By admin | 2 comment
+              </div>
+              <div class="news_date">
+                <div class="date_container">
+                  <div class="date_day">12</div>
+                  <div class="date_month">Feb</div>
+                </div>
+              </div>
+            </div>
+          </a>
+            <a href=""><div class="news_section_item">
+              <img class="news_img" src="./img/news_8.png" />
+              <div class="news_text">
+                <div class="news_strong">Amazing Blog Post</div>
+                By admin | 2 comment
+              </div>
+              <div class="news_date">
+                <div class="date_container">
+                  <div class="date_day">12</div>
+                  <div class="date_month">Feb</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+      <div class="feedback">
+        <div class="container">
+          <h2>What People Say About theHam</h2>
+          <div class="lines">
+            <div class="green_line"></div>
+            <div class="green_line"></div>
+          </div>
+          <img class="feedback_icon" src="./img/feedback_icon.png" alt="">
+          <div id="firstUser" class="feedback_container active">
+            <div class="feedback_text">
+              <div class="feedback_content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsum quaerat praesentium sed nulla, a asperiores quidem at quis autem commodi delectus iusto, alias odit eveniet possimus necessitatibus ullam error!</div>
+              <div class="user_name">EMILY COBB</div>
+              <div class="user_profession">Web Developer</div>
+            </div>
+            <div class="user_img_container">
+             <div class="user_img"> <img src="./img/user_1.png" alt=""></div>
+            </div>
+          </div>
+          <div id="secondUser" class="feedback_container">
+            <div class="feedback_text">
+              <div class="feedback_content">Eligendi voluptatem similique consequatur aspernatur laborum sapiente quia dignissimos dolor et ullam, fuga voluptatum nesciunt explicabo doloribus distinctio eum rem dolores est!Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+              <div class="user_name">ROLAND CARR</div>
+              <div class="user_profession">UI Designer</div>
+            </div>
+            <div class="user_img_container">
+             <div class="user_img"> <img src="./img/user_2.png" alt=""></div>
+            </div>
+          </div>
+          <div id="thirdUser" class="feedback_container">
+            <div class="feedback_text">
+              <div class="feedback_content">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam.</div>
+              <div class="user_name">HASAN ALI</div>
+              <div class="user_profession">UX Designer</div>
+            </div>
+            <div class="user_img_container">
+             <div class="user_img"> <img src="./img/user_3.png" alt=""></div>
+            </div>
+          </div>
+          <div id="fourthUser" class="feedback_container">
+            <div class="feedback_text">
+              <div class="feedback_content"> Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis.</div>
+              <div class="user_name">COLLEEN BURKE</div>
+              <div class="user_profession">Data Scientist</div>
+            </div>
+            <div class="user_img_container">
+             <div class="user_img"> <img src="./img/user_4.png" alt=""></div>
+            </div>
+          </div>
+          <div class="carousel_menu">
+            <div class="arrow prev" onclick="plusSlides(-1)">
+              <svg width="8" height="13" viewBox="0 0 8 13" fill="#BBBBBB" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M6.50764 12.5076L7.81261 11.1056L3.52463 6.49631L7.81261 1.88987L6.50764 0.486695L0.91457 6.49631L6.50764 12.5076Z" fill="#BBBBBB"/>
+              </svg>
+              </div>
+            <div onclick="getCarousel(event, 'firstUser')" class="carousel_menu_item"><img src="./img/user_1.png" alt=""></div>
+            <div onclick="getCarousel(event, 'secondUser')" class="carousel_menu_item"><img src="./img/user_2.png" alt=""></div>
+            <div onclick="getCarousel(event, 'thirdUser')" class="carousel_menu_item"><img src="./img/user_3_mini.png" alt=""></div>
+            <div onclick="getCarousel(event, 'fourthUser')" class="carousel_menu_item"><img src="./img/user_4.png" alt=""></div>
+            <div class="arrow next" onclick="plusSlides(1)">
+              <svg width="8" height="13" viewBox="0 0 8 13" fill="#BBBBBB" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.49213 0.48752L0.18704 1.88987L4.47503 6.49714L0.18704 11.1056L1.49213 12.5084L7.08508 6.49714L1.49213 0.48752Z" fill="#BBBBBB"/>
+                </svg>                
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_container">© Copyright 2015 <div class="footer_special"> theHam</div> | All Rights Reserved</div>
+    </footer>
+  </body>
+</html>
