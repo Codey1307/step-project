@@ -22,7 +22,6 @@ svg path {
 
 header {
   position: absolute;
-  margin-top: 10px;
   width: 100%;
   height: 120px;
   background: rgba(94, 93, 88, 0.6);
@@ -295,7 +294,7 @@ header {
 }
 
 .services_description img{
-  width: 192px;
+  width: 180px;
   height: 144px;
 }
 
@@ -699,5 +698,9 @@ height: 142px;
 .carousel_menu_item:hover {
   transform: translate(0, -8px);
   transition: all 0.2s;
+}
+
+.carousel_menu_item.active{
+  transform: translate(0, -8px);
 }
 
