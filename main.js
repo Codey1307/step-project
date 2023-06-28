@@ -1,4 +1,4 @@
-// фильтр
+//фильтр
 
 $(document).ready(function () {
   $(".work_section_item").show();
